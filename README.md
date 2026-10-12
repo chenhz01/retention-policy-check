@@ -4,6 +4,8 @@ A data-retention compliance scanner. Declare per-dataset retention days in a pol
 
 **Status:** v0.1.1 · Confidence: high (deterministic arithmetic) · as of 2026-10-11
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Policies say "delete logs after 30 days"; reality keeps every file since 2023. Nobody diffs the *declared* policy against the *actual* timestamps of stored records, so retention quietly rots, and audits fail on items nobody remembered existed.
